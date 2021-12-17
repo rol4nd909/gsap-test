@@ -1,10 +1,9 @@
 {
-  "name": "parcel",
-  "version": "1.0.0",
+  "name": "imgsequence",
+  "version": "2.0.0",
   "scripts": {
     "start": "npx parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url 'https://github.com/rol4nd909/gsap-test.git'",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url 'https://rol4nd909.github.io/gsap-test/'",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
